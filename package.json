@@ -5,7 +5,9 @@
   "main": "app.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "increment:patch": "./incrementPatchVersion.sh"
+    "inc:patch": "./incrementPatchVersion.sh",
+    "inc:minor": "./incrementMinorVersion.sh",
+    "inc:major": "./incrementMajorVersion.sh"
   },
   "author": "masayuki0109",
   "license": "ISC"
