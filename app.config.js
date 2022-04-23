@@ -4,7 +4,7 @@ export default {
     scheme: "my-app",
     name: "my-app",
     slug: "my-app",
-    version: "0.0.1",
+    version: "0.0.4",
     orientation: "portrait",
     icon: "./icon.png",
     userInterfaceStyle: "automatic",
@@ -18,11 +18,11 @@ export default {
     assetBundlePatterns: ["**/*"],
     ios: {
       bundleIdentifier: "my-app",
-      buildNumber: "0.0.1",
+      buildNumber: "0.0.4",
     },
     android: {
       package: "my-app",
-      versionCode: 1,
+      versionCode: 4,
     },
   },
 };

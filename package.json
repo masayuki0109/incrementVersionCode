@@ -1,10 +1,11 @@
 {
   "name": "verson-increment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Increase the numerical value of the version code in expo's app.config.js",
   "main": "app.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "increment:patch": "./incrementPatchVersion.sh"
   },
   "author": "masayuki0109",
   "license": "ISC"
